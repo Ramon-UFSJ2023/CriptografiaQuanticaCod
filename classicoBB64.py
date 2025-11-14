@@ -143,11 +143,11 @@ def FindQtdBits():
     bitsCertosGeral, taxaAcertoGeral, taxaDeErroGera, tamanhoVectorPosAmostragem = taxaDeErroGeral(vectorAlicePosAmostragem, vectorBobPosAmostragem)
     print(f"Tamanho do vector: {qtd_bits}\n")
     print(f"Tamanho Amostragem: {tamanhoAmostragem}")
-    print("Bits Certos da Amostra{numeroBitCertos}")
+    print(f"Bits Certos da Amostra: {numeroBitCertos}")
     print("Taxa de acerto da amostragem: {:.4f}".format(numeroBitCertos/tamanhoAmostragem))
     print("Taxa de erro da amostra: {:.4f}\n".format(taxaDeErroSemCanal))
 
-    print(f"Numero de Bits PosAmostragem: {tamanhoVectorPosAmostragem}")
+    print(f"Numero de Bits PosAmostragem e PosMedicao: {tamanhoVectorPosAmostragem}")
     print(f"Numero de Bits certos PosAmostragem: {bitsCertosGeral}")
     print("Taxa de acerto Geral: {:.4f}".format(taxaAcertoGeral))
     print("Taxa de Erro Geral: {:.4f}".format(taxaDeErroGera))
